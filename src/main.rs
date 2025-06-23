@@ -14,4 +14,12 @@ fn main () {
     
 
     println!("age >> {age}");
+
+
+
+    let mut city = String::new();
+    std::io::stdin().read_line(&mut city).unwrap();
+    let city = city.trim();
+
+    println!("city >> {city}");
 }
