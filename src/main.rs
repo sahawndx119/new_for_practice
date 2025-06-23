@@ -17,6 +17,7 @@ fn main () {
 
 
 
+    println!("please enter your city");
     let mut city = String::new();
     std::io::stdin().read_line(&mut city).unwrap();
     let city = city.trim();
