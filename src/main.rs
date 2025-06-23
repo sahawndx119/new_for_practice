@@ -22,4 +22,8 @@ fn main () {
     let city = city.trim();
 
     println!("city >> {city}");
+
+
+
+    println!("have a nice day");
 }
